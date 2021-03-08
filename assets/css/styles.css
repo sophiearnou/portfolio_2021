@@ -79,6 +79,15 @@ p {
 
 /*===== VARIABLES CSS =====*/
 
+.fa-linkedin,
+.fa-github {
+    color: var(--text-color);
+}
+
+.footer__contact a {
+    padding: 1rem;
+}
+
 .l-header {
     width: 100%;
     position: fixed;
@@ -715,16 +724,6 @@ header .nav__toggle {
 
 /*========== SECTION FOOTER ==========*/
 
-.footer {
-    color: var(--white);
-    background-position: left;
-    background-position: top;
-    background: url(../images/img_footerok.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-}
-
 .footer .bg-img {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -948,6 +947,9 @@ header .nav__toggle {
         font-size: 14px;
         line-height: 21px;
     }
+    .attachement {
+        margin-top: 1.5rem;
+    }
     .img_mobile {
         position: relative;
         width: 100%;
@@ -960,6 +962,10 @@ header .nav__toggle {
         background-position: left;
         background-size: contain;
         border-radius: 50%;
+    }
+    .content_text {
+        width: 90%;
+        margin-left: auto;
     }
     .slogan h1 span {
         font-size: 1.8rem;
@@ -981,17 +987,10 @@ header .nav__toggle {
     .about-slogan.start {
         transform: translateX(0) !important;
     }
-    /* section projet */
-    .projet-menu {
-        padding: 4rem 0;
-    }
-    .projet-menu p,
-    .projet-menu h1 {
-        margin: 2rem 1rem;
-    }
-    .projet-item {
-        width: 50%;
-        height: 25rem;
+    .img-holder {
+        width: 93%;
+        top: -30px;
+        left: -5px;
     }
     .projet-category {
         overflow-y: scroll;
@@ -1000,7 +999,7 @@ header .nav__toggle {
         width: max-content;
     }
     .item-img {
-        height: 80%;
+        height: 55%;
     }
     /* section competence */
     .fixed {
@@ -1008,6 +1007,10 @@ header .nav__toggle {
     }
     .review-wrap.active {
         transform: unset !important;
+    }
+    /*footer*/
+    #footer {
+        margin-top: 1rem;
     }
     /*========== END MOBILE NAVIGATION ==========*/
     /*========== GRID ==========*/
