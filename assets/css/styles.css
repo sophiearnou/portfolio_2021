@@ -76,6 +76,10 @@ p {
     margin: 0;
 }
 
+h2 {
+    color: var(--primary-color);
+}
+
 
 /*===== VARIABLES CSS =====*/
 
@@ -135,7 +139,7 @@ p {
 }
 
 section {
-    padding: 9rem 0;
+    padding: 9rem 0 0 0;
 }
 
 
@@ -255,7 +259,7 @@ section {
 
 /* on gère le menu des tablettes et mobile */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 820px) {
     .nav__menu {
         position: fixed;
         /*top: var(--header-height);*/
@@ -337,7 +341,7 @@ header .nav__toggle {
 
 /* For full-screen images on small screens */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 820px) {
     body {
         margin: 0;
     }
@@ -451,6 +455,10 @@ header .nav__toggle {
 
 .primary-color {
     color: var(--primary-color);
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 
@@ -724,6 +732,13 @@ header .nav__toggle {
 
 /*========== SECTION FOOTER ==========*/
 
+.content_footer {
+    padding: 4rem;
+    background-color: var(--white);
+    border-radius: 2rem;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
 .footer .bg-img {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -732,32 +747,8 @@ header .nav__toggle {
     color: var(--primary-color);
 }
 
-.input-group {
-    padding: 1rem;
-    border: .125rem solid var(--primary-color);
-    border-radius: 2rem;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-
-.input-group input {
-    flex: auto;
-    outline: none;
-    border: none;
-    color: var(--primary-color);
-    background-color: transparent;
-}
-
-.input-group button {
-    padding: .5rem 1rem;
-    outline: none;
-    border: none;
-    background-color: var(--primary-color);
-    border-radius: 1rem;
-    color: var(--white);
-    font-weight: 600;
-    cursor: pointer;
+.col {
+    width: 50%;
 }
 
 
@@ -869,7 +860,13 @@ header .nav__toggle {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:820px) {
+    .slogan h1 span {
+        font-size: 4rem;
+    }
+    .img_mobile {
+        border-radius: 50%;
+    }
     .content_text {
         width: 50%;
         margin-left: auto;
@@ -887,6 +884,7 @@ header .nav__toggle {
     /* section about */
     .about-slogan {
         padding: 2rem;
+        width: 415px;
     }
     /* section competence */
     .review-wrap.active {
@@ -902,15 +900,21 @@ header .nav__toggle {
         margin-bottom: 19rem;
     }
     .baleine {
-        display: none;
+        right: -425px;
+        bottom: -148px;
+        width: 50%;
     }
     .baleine2 {
         right: -425px;
-        bottom: -248px;
+        bottom: -188px;
     }
     .baleine2 img {
-        width: 50%;
+        width: 80%;
         height: auto;
+    }
+    /*footer*/
+    section {
+        padding: 2rem 0;
     }
 }
 
@@ -920,9 +924,6 @@ header .nav__toggle {
     }
     h1 {
         font-size: 2.5rem !important;
-    }
-    section {
-        padding: 0;
     }
     .back-to-top {
         right: 0;
@@ -1011,6 +1012,12 @@ header .nav__toggle {
     /*footer*/
     #footer {
         margin-top: 1rem;
+    }
+    .col {
+        width: 100%;
+    }
+    .content_footer h2 {
+        color: var(--primary-color);
     }
     /*========== END MOBILE NAVIGATION ==========*/
     /*========== GRID ==========*/
