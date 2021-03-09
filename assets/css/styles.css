@@ -495,7 +495,7 @@
         
         .baleine2 {
             position: absolute;
-            right: -423px;
+            right: -527px;
             /*-228px*/
             bottom: -379px;
             background-repeat: no-repeat;
@@ -908,7 +908,7 @@
                 z-index: 1;
             }
             .baleine2 {
-                left: 0;
+                left: 27px;
                 top: 132%;
             }
             .baleine img {
