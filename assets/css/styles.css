@@ -1,6 +1,6 @@
 /*========== Colors ==========*/
 
- :root {
+:root {
     --header-height: 3rem;
     /*========== Colors ==========*/
     --primary-color: rgb(209, 0, 198);
@@ -246,7 +246,7 @@ section {
 /*========== HEADER NAV ==========*/
 
 .nav {
-    height: calc(var(--header-height) + 3rem);
+    height: calc(var(--header-height) + 1.5rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -961,6 +961,15 @@ header .nav__toggle {
     }
     h1 {
         font-size: 2.5rem !important;
+    }
+    .pt {
+        padding-top: 5rem;
+    }
+    .pt-lg {
+        padding-top: 44rem;
+    }
+    .pb-lg {
+        padding-bottom: 27rem;
     }
     .back-to-top {
         right: 0;
