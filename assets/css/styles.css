@@ -1055,3 +1055,24 @@
                 display: none;
             }
         }
+        
+        @media only screen and (max-width:356px) {
+            .baleine2 {
+                left: 27px;
+                top: 132%;
+            }
+            .baleine img {
+                width: 50%;
+                height: auto;
+            }
+            .baleine {
+                right: -425px;
+                bottom: -148px;
+                /* .baleine {
+                display: none; */
+            }
+            .baleine2 img {
+                width: 64%;
+                height: auto;
+            }
+        }
