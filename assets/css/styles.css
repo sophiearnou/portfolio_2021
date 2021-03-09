@@ -380,10 +380,6 @@ header .nav__toggle {
     background-size: contain;
 }
 
-#accueil .img_mobile img {
-    display: none;
-}
-
 .slogan {
     text-align: right;
 }
@@ -751,6 +747,10 @@ header .nav__toggle {
     width: 50%;
 }
 
+.footer {
+    padding: 2rem 0;
+}
+
 
 /*========== END SECTION FOOTER ==========*/
 
@@ -890,10 +890,8 @@ header .nav__toggle {
     .review-wrap.active {
         transform: unset !important;
     }
-    .img_mobile {
-        display: flex;
-        width: 380px;
-        position: relative;
+    #about img {
+        display: none;
     }
     #service {
         margin-top: 7rem;
@@ -906,7 +904,7 @@ header .nav__toggle {
     }
     .baleine2 {
         right: -425px;
-        bottom: -188px;
+        bottom: -353px;
     }
     .baleine2 img {
         width: 80%;
@@ -940,8 +938,15 @@ header .nav__toggle {
         z-index: 1;
     }
     .baleine2 {
-        right: -458px;
-        bottom: -416px;
+        right: -450px;
+        bottom: -513px;
+    }
+    .baleine {
+        display: none;
+    }
+    .baleine2 img {
+        width: 50%;
+        height: auto;
     }
     P {
         font-weight: 300;
@@ -982,6 +987,9 @@ header .nav__toggle {
         font-size: 2rem;
     }
     /* section about */
+    .about-slogan {
+        width: 100%;
+    }
     .align-items-center {
         align-items: flex-start;
     }
@@ -1003,6 +1011,10 @@ header .nav__toggle {
         height: 55%;
     }
     /* section competence */
+    #service {
+        margin-top: 22rem;
+        margin-bottom: 28rem;
+    }
     .fixed {
         z-index: -1;
     }
