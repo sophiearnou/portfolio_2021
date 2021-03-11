@@ -254,9 +254,6 @@ section {
 }
 
 
-/*on obtient 3 col.le logo et le menu(celui-ci avec les li en colonne et l'icon menu*/
-
-
 /* on gère le menu des tablettes et mobile */
 
 @media screen and (max-width: 820px) {
